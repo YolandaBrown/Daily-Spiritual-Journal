@@ -1,0 +1,54 @@
+body {
+    background-image: url('background.jpg');
+    height: 100%;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+#dayofweek {
+   float: left;
+   font-weight: bold;  
+   border: 2px white solid;
+   margin-top: 5px;
+}
+
+.author-quote {
+    font-weight: bold;
+}
+
+.quote {
+    color: white;
+    font-size: 16px;
+}
+
+#save-button {
+    border-radius: 20px;
+    border: green 3px solid;
+}
+
+#floatingTextarea {
+    border: green solid 3px;
+    border-radius: 5px;
+}
+
+input {
+    border: 2px solid green;
+    border-radius: 5px; 
+
+}
+
+.fa-border {
+    border: 2px solid white;
+}
+
+label {
+    white-space: pre-line;
+}
+
+table td{
+    border-spacing: 2px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+        crossorigin="anonymous">
+
+    <link href="Daily Spiritual Journal.css" rel="stylesheet">
+    <link href="calendar.html">
+    <link href="Daily Spiritual Journal.php">
+    <script src="https://kit.fontawesome.com/ec6f837621.js"
+        crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Spiritual Journal</title>
+</head>
+
+<body>
+    <!-- Made a container the hold everything except date and quote -->
+    <div class="container">
+        <!--Made divs for quote and date-->
+        <div id="dayofweek" class="date"></div>
+        <br><br>
+        <div id="daily-quote" class="quote"></div>
+        <div id="author" class="author-quote"></div>
+        <br><br>
+        <h2>Daily Journal Entry</h2><br>
+        <form action="insert.php" method="POST">
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here"
+                id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Prayers, Thoughts or
+                Lessons Learned</label>
+        </div> <br><br></form>
+    </div>
+    <input type="checkbox" name="Exercise"> <i class="fas fa-running fa-7x" data-bs-toggle="tooltip" data-bs-placement="top" title="Check the box if you exercised today"></i>
+    <input type="checkbox" name="Meditation"> <i class="fas fa-peace fa-7x" data-bs-toggle="tooltip" data-bs-placement="top" title="Check the box if you meditated today"></i>
+    <input type="checkbox" name="Pray"> <i class="fas fa-pray fa-7x"data-bs-toggle="tooltip" data-bs-placement="top" title="Check the box if you prayed today"></i>
+
+    <br><br>
+    How much water did you drink today? <input type="number">
+    ounce(s)<br><br><br>
+
+    <button id="save-button"><strong>Save</strong></button>
+    <br><br>
+    <button onclick="document.location='calendar.html'"><strong>Go To
+            Calendar</strong></button>
+
+    <!--This is the javascript file-->
+    <script src="Daily Spiritual Journal.js" type="module"></script>
+
+
+</body>
+
+
+</html>
