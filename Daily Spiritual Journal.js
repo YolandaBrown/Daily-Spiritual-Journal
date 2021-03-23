@@ -3,7 +3,7 @@
 fetch("https://quotes-inspirational-quotes-motivational-quotes.p.rapidapi.com/quote?token=ipworld.info", {
 	"method": "GET",
 	"headers": {
-		"x-rapidapi-key": "91689b9c6dmsh2dea87d40c5c6aep162dfbjsn52594f6e7867",
+		"x-rapidapi-key": "XXX",
 		"x-rapidapi-host": "quotes-inspirational-quotes-motivational-quotes.p.rapidapi.com"
 	}
 })
